@@ -1,0 +1,40 @@
+".container[platform=ios]" : { 
+   backgroundColor: 'white' 
+}
+
+"Label[platform=ios]": { 
+  color: 'grey' 
+}
+
+".list": {
+    color: 'black',
+    font: {
+        fontSize: '20'
+    },
+    left: '10',
+},
+
+// "#nameLabel": {
+    // font: {
+        // fontSize: '30'
+    // },
+    // left: '10',
+// },
+// "#authorLabel": {
+    // font: {
+        // fontSize: '20'
+    // },
+    // left: '10'
+// }
+// "#pagesLabel": {
+    // font: {
+        // fontSize: '20'
+    // },
+    // left: '10',
+// },
+// "#annotationLabel": {
+    // font: {
+        // fontSize: '20'
+    // },
+    // left: '10',
+// },

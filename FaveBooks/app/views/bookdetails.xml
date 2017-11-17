@@ -1,0 +1,48 @@
+<Alloy>
+    <Window class="container">
+
+        <ListView id="booksPropertyList" defaultItemTemplate="elementTemplate">
+            <Templates>
+                <ItemTemplate name="elementTemplate">
+                    <Label class="list" bindId="isbn" id="isbn"></Label>
+                    <Label class="list" bindId="name" id="name"></Label>
+                    <Label class="list" bindId="author" id="author"></Label>
+                    <Label class="list" bindId="pages" id="pages"></Label>
+                    <Label class="list" bindId="annotation" id="annotation"></Label>
+                </ItemTemplate>
+            </Templates>
+            <ListSection>
+                <ListItem isbn:text=""/>
+                <ListItem name:text=""/>
+                <ListItem author:text=""/>
+                <ListItem pages:text=""/>
+                <ListItem annotation:text=""/>
+            </ListSection>
+        </ListView>
+
+        <!--<View layout='vertical'>-->
+        <!--<ListView id="booksPropertyList" defaultItemTemplate="elementTemplate">-->
+        <!--<Templates>-->
+        <!--<ItemTemplate name="elementTemplate" >-->
+        <!--<Label bindId="isbn" id="isbn" ></Label>-->
+        <!--<Label bindId="name" id="name"></Label>-->
+        <!--<Label bindId="author" id="author"></Label>-->
+        <!--<Label bindId="pages" id="pages"></Label>-->
+        <!--<Label bindId="annotation" id="annotation"></Label>-->
+        <!--</ItemTemplate>-->
+        <!--</Templates>-->
+        <!--<ListSection></ListSection>-->
+
+        <!--&lt;!&ndash;<ListSection id="defaultSection"></ListSection>&ndash;&gt;-->
+        <!--&lt;!&ndash;<ListSection>&ndash;&gt;-->
+        <!--&lt;!&ndash;<ListItem />&ndash;&gt;-->
+        <!--&lt;!&ndash;</ListSection>&ndash;&gt;-->
+        <!--</ListView>-->
+        <!--<Label id="isbn"></Label>-->
+        <!--<Label id="nameLabel"></Label>-->
+        <!--<Label id="authorLabel"></Label>-->
+        <!--<Label id="pagesLabel"></Label>-->
+        <!--<Label id="annotationLabel"></Label>-->
+        <!--</View>-->
+    </Window>
+</Alloy>
